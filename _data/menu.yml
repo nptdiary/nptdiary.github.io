@@ -1,0 +1,10 @@
+---
+header:
+- name: Home
+  link: "/"
+- name: Quà tặng
+  link: /nhan-qua-tang
+- name: About
+  link: /about
+- name: Contact
+  link: /contact

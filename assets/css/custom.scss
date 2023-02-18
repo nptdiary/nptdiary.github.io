@@ -1,0 +1,51 @@
+---
+# Lets add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+	"syntax"
+;
+
+#tangsach{
+	margin: 0;
+    background-color: #f7f7f7;
+    padding-bottom: 20px;
+	.tangsach-text{
+		padding: 20px;	
+		h2{
+			color: #2bcbba;
+			font-weight: 700;
+		}
+	}
+}
+
+#dac-nhan-tam , #nha-gia-kim{
+	margin: 0; padding: 30px; background-color:#c7ecee;
+}
+#hanh-trinh-ve-phuong-dong, #dien-thong-tin{
+	margin: 0; padding: 30px; background-color:#dff9fb;
+}
+
+
+.img-center{
+	text-align:center;
+	margin: auto;
+}
+.text-center{
+	text-align:center; 
+	margin: auto;
+}
+
+.btn{
+	border: #fff solid 3px;	
+	padding: 10px 20px;
+	box-shadow: none;
+	background-color: #ff7f50;
+	border-radius: 30px;
+	&:hover{
+		background-color: #ff6348;
+		font-weight: bold;
+	}
+}

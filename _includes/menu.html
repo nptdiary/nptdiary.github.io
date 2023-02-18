@@ -1,0 +1,9 @@
+<div class="collapse navbar-collapse" id="navbarsWow">
+    <ul class="navbar-nav ml-auto">
+        {% for item in site.data.menu.header %}
+            <li class="nav-item">                
+                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

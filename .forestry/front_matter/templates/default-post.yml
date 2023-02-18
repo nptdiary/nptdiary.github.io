@@ -1,0 +1,76 @@
+---
+label: Default Post
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+  config:
+    required: true
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post-right-sidebar
+    - post
+    required: true
+  label: Layout
+  default: post-right-sidebar
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - dendrodupul
+    - phutrong
+    required: true
+  label: Author
+  name: author
+  default: dendrodupul
+- name: description
+  label: Description
+  type: textarea
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- type: file
+  name: image
+  label: Image
+- type: datetime
+  default: ''
+  label: Date
+  name: date
+  config:
+    date_format: DD/MM/YYYY
+    required: true
+    time_format: h:mm
+pages:
+- _posts/2018-03-18-ky-nang-doc-o-dai-hoc.md
+- _posts/2018-03-21-du-hoc-hay-dai-hoc-trong-nuoc.md
+- _posts/2018-08-06-ky-nang-tao-lap-quan-he-tu-cuoc-tro-chuyen.md
+- _posts/2018-08-28-top-10-ky-nang-dam-phan-harvard-law-school-report.md
+- _posts/2018-09-19-thoi-quen-doc-sach-cua-nhung-nguoi-cuc-ki-thanh-cong.md
+- _posts/2018-09-23-cach-tao-dung-thoi-quen-doc-sach-moi-ngay.md
+- _posts/2018-09-24-cac-hinh-thuc-phong-van-tu-nha-tuyen-dung.md
+- _posts/2018-09-25-nen-doc-sach-giay-hay-sach-dien-tu.md
+- _posts/2018-09-27-cach-doc-sach-hieu-qua-hon.md
+- _posts/2018-09-29-cach-lam-slide-thuyet-trinh-dep-va-chuyen-nghiep.md
+- _posts/2018-10-10-4-dieu-can-luu-y-khi-tim-phong-tro-cho-sinh-vien.md
+- _posts/2018-10-16-8-thoi-quen-giup-ban-thong-minh-hon.md
+- _posts/2018-10-21-doc-sach-bang-tai-trang-web-sau-se-giup-ban.md
+- _posts/2018-10-30-phong-van-nhom-group-interview.md
+- _posts/2018-11-10-bat-tay-cho-dung.md
+- _posts/2018-12-20-hướng-dẫn-tạo-tài-khoản-premium-lynda-miễn-phí-2019.md
+- _posts/2019-08-02-tien-bac-dam-me.md
+- _posts/2019-12-14-ly-do-minh-bat-dau-doc-sach-tro-lai.md
+- _posts/lam-the-nao-de-doc-100-quyen-sach-mot-nam.md
+- _posts/lam-the-nao-de-xay-dung-thoi-quen-doc-sach-cho-tre-nho.md
+- _posts/thu-thach-doc-sach-2019.md

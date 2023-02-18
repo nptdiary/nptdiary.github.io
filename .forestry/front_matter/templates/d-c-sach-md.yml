@@ -1,0 +1,21 @@
+---
+label: categories
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: category
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: name
+  label: Name
+  type: text
+  hidden: false
+  default: ''
+pages:
+- _category/thói-quen.md

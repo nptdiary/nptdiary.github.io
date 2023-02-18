@@ -1,0 +1,54 @@
+# Site
+name: NPT Diary
+description: Hi! Đây là NPT Diary. Chúng mình sẽ mang đến những bài viết từ kinh nghiệm và kiến thức thực tế giúp các bạn hoàn thiện và phát triển bản thân.
+meta_description: "Hi! Đây là NPT Diary. Chúng mình sẽ mang đến những bài viết từ kinh nghiệm và kiến thức thực tế giúp các bạn hoàn thiện và phát triển bản thân."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+url: https://nptdiary.github.io
+baseurl:
+email: 'nguyenphutrong.12a@gmail.com'
+disqus: 'nptdiary-github-io'
+
+# Authors
+authors:
+  phutrong:
+    name: Nguyễn Phú Trọng
+    display_name: Phú Trọng
+    gravatar: 914865db929b2ef10d33db12b7e89720
+    email: nguyenphutrong.12a@gmail.com
+    description: Hi! Mình là Trọng. Chào mừng bạn đến với NPT Diary. Đừng quên để lại comment về những bài viết của mình nhá. Đó sẽ là những góp ý rất bổ ích để blog của chúng mình ngày càng hoàn thiện đấy.
+  dendrodupul:
+    name: dendrodupul
+    display_name: dendrodupul
+    description: Hi! Mình là Dendrodupul. Chào mừng bạn đến với NPT Diary. Đừng quên để lại comment về những bài viết của mình nhá. Đó sẽ là những góp ý rất bổ ích để blog của chúng mình ngày càng hoàn thiện đấy.
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Other
+markdown: kramdown
+highlighter: rouge
+
+time: 2018-05-05
+
+permalink: /:year/:title.html
+
+paginate: 10
+paginate_path: /page:num/
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: categories
+    values:
+      layout: category
