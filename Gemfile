@@ -12,3 +12,5 @@ gem "jekyll-archives"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem 'jekyll-redirect-from'
+gem 'kramdown-parser-gfm'
+gem "webrick", "~> 1.8"
