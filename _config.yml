@@ -34,7 +34,7 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-time: 2018-05-05
+time: 2025-05-05
 
 permalink: /:year/:title.html
 
